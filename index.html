@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contatos.css" />
+    <title>Lista de Contatos</title>
+  </head>
+  <body>
+    <div id="app-container">
+      <header>
+        <h1>Lista de Contatos</h1>
+      </header>
+
+      <main>
+        <label for="contact-name">Adicionar Contato:</label>
+        <input type="text" id="contact-name" placeholder="Nome do contato" />
+        <button id="add-contact-btn">Adicionar</button>
+
+        <ul id="contact-list">
+          <!-- Contatos adicionados aparecerão aqui -->
+        </ul>
+      </main>
+
+      <footer>
+        <button id="clear-list-btn">Limpar Lista</button>
+      </footer>
+    </div>
+    <script src="contatos.js"></script>
+  </body>
+</html>
